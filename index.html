@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Marmeto Task</title>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="heading">
+    <h1>SELECT YOUR CHOICE</h1>
+</div>
+<div class="container">
+  <div class="tabs">
+    <div class="tab active" onclick="showProducts('men')">Men</div>
+    <div class="tab" onclick="showProducts('women')">Women</div>
+    <div class="tab" onclick="showProducts('kids')">Kids</div>
+  </div>
+  <div id="product-container">
+    <!-- Product cards will be dynamically added here -->
+  </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
